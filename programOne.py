@@ -18,11 +18,11 @@ while(number<=12):
 		print( "Asante is swiming")
 
 	
-var = 'y'
+var = 'o'
   
 if (var =='Y' or var =='y'):
     print("YOU SAID YES")
-elif(var =='N' or var =='n'):
+elif(var =='N' or var =='o'):
     print("YOU SAID NO")
 else:
     print("INVALID INPUT")
