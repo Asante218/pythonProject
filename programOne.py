@@ -1,15 +1,13 @@
 #author: asante
+numbers = [1, 2, 3, 4]
 
-number = 0
 
-a = ["Asante is jumping",
-     "Asante is riding",
-     "Asante is climbing"]
+adding = 0
+adding = numbers[0] / numbers[1] / numbers[2] / numbers[3] 
+print(adding)
 
-while(number<3):
-  
-  print(a[number]) 
-  number += 1
+
+
 
 #for x in a:
   #print(x)
