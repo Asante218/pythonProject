@@ -7,10 +7,14 @@ print("Welcome to Asante's personal calculator.")
 number1 = int (input("Please pick the first number you want to calculate."))
 print(number1)
 
-number2 = int (input("Please pick a second number to multiply, divide, subtract, or add."))
-print(number2)
 
 operation = int (input(" Choose 1 to add, 2 to subtract, 3 to multiply, 4 to divide."))
+print(operation)
+
+
+number2 = int (input("Please pick a second number to multiply, divide, subtract, or add."))
+
+
 
 total = 0
 
@@ -34,5 +38,5 @@ elif operation == 4:
 else:
 	print("Invalid input.")
 
-	
+
 
